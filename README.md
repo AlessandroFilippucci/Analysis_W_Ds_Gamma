@@ -20,7 +20,7 @@ Below is the list of files included in this repository, along with a brief descr
 
 * **`Event_Generation.py`**: Python script used to generate simulated events via Pythia8.
 * **`W+_to_Ds+_Gamma.cc`**: C++ macro for analyzing the simulated data and producing histograms.
-* **`Histograms_Visualization.C`**: ROOT macro dedicated to visualizing the histograms generated during the analysis stage.
+* **`Histograms_Visualization.C`**: ROOT macro used to process the analysis data and save the resulting histograms into a `.root` file, allowing them to be subsequently inspected by the user via ROOT's interactive graphical interface (`TBrowser`).
 
 > [!NOTE]
 > The configuration script for the data transformation step is not included here, as that process was carried out using proprietary tools specific to the CMS Collaboration.
